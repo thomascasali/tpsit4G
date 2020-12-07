@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Centro_di_ricerca_ITTS.Persona" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAABAAAIAQAAAAAAIAAAAGAAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.Ricercatore">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQBAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.Junior">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.Senior">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.TeamDiRicerca">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAiBAAAAAAAAgEAAAAJAAQA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="responsabile" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="ricercatori" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.AreaDiRicerca">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQABAAAAABAAEAAACEAAAQACBggCAAAgECAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="responsabile" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="ricecatoriSenior" />
+      <Field Name="ricecatoriJunior" />
+      <Field Name="progettiArea" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.Progetto">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="team" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.ResponsabileArea" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centro_di_ricerca_ITTS.CentroDiRicerca">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassiCentroRicerca.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="areeRicerca" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
